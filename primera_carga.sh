@@ -15,5 +15,6 @@ echo "deb http://download.webmin.com/download/repository sarge contrib" >/etc/ap
 
 apt-get -y update
 apt-get -y install apt-transport-https
+sed -i 's/main/main contrib/g' /etc/apt/sources.list
 apt-get -y install webmin
 
