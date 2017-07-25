@@ -1,8 +1,8 @@
 
 #!/usr/bin/bash
 
-# sh -c "$(curl -fsSL https://raw.githubusercontent.com/egloeda/debian/master/primera_carga.sh)"
-# sh -c "$(wget https://raw.githubusercontent.com/egloeda/debian/master/primera_carga.sh -O -)"
+# sh -c "$(curl -fsSL https://raw.githubusercontent.com/egloeda/debian/master/debian9_primera_carga.sh)"
+# sh -c "$(wget https://raw.githubusercontent.com/egloeda/debian/master/debian9_primera_carga.sh -O -)"
 
 apt-get -y update
 apt-get -y upgrade
