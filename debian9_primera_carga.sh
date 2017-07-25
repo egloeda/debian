@@ -20,3 +20,4 @@ sed -i 's/deb cdrom/#deb cdrom/g' /etc/apt/sources.list
 apt-get -y update
 apt-get -y install webmin
 apt-get -y install smartmontools
+apt-get -y install ntpdate
