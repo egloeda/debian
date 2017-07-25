@@ -19,3 +19,4 @@ sed -i 's/main/main contrib non-free/g' /etc/apt/sources.list
 sed -i 's/deb cdrom/#deb cdrom/g' /etc/apt/sources.list
 apt-get -y update
 apt-get -y install webmin
+apt-get -y install smartmontools
