@@ -21,3 +21,4 @@ apt-get -y update
 apt-get -y install webmin
 apt-get -y install smartmontools
 apt-get -y install ntpdate
+apt-get -y install net-tools
