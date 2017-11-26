@@ -1,5 +1,5 @@
 apt-get -y install apache2-ssl-dev libapache2-mod-php php mariadb-server
-apt-get -y install php-gd php-readline php-mbstring php-curl
+apt-get -y install php-gd php-readline php-mbstring php-curl php-mysql
 apt-get -y install postfix
 echo "<?php phpinfo(); ?>" > /var/www/html/p1.php
 
