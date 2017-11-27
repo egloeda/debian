@@ -11,7 +11,7 @@ mkdir -p /software/{mantisbt,dokuwiki}
 mkdir -p /var/www/html/{prod,test}/{mantis,faq}
 cd /sofrware/mantisbt
 wget https://sourceforge.net/projects/mantisbt/files/mantis-stable/2.8.0/mantisbt-2.8.0.tar.gz/download
-mv download mantisbt-2.8.0.tar.g
+mv download mantisbt-2.8.0.tar.gz
 
 
 
