@@ -14,4 +14,7 @@ wget https://sourceforge.net/projects/mantisbt/files/mantis-stable/2.8.0/mantisb
 mv download mantisbt-2.8.0.tar.gz
 
 
+service apache2 restart
+service mysql restart
+
 
